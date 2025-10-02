@@ -37,7 +37,9 @@ I developed a CLI-based trading bot for **Binance USDT-M Futures Testnet** that 
    Clone the repository and run the Flask app:
    ```bash
    git clone https://github.com/Devredhat/dev-binance-bot.git
-   cd dev-binance-bot/src/frontend
+   cd dev-binance-bot
+   cd src
+   cd frontend
    python app.py
    ```
    After that, open the web interface in your browser:
