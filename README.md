@@ -26,8 +26,8 @@ echo "API_KEY=f9e7faab0b4873c0908b5c42b24fabe81534fc1400b34d5c1b6bade0b1db0f87" 
 echo "API_SECRET=c51f76b6c0fe156d03dfdfd34dfde2df18c2f90325ac73a76109d1c49b8fdf2c" >> .env
 
 3. Run the Bot :-
-cd src
-cd frontend
+cd src /
+cd frontend /
 python app.py
 
 Then open: http://localhost:5000
