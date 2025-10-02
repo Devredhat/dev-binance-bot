@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Crypto Trading Bot</h1>
+            <p>Binance Futures Testnet Interface</p>
+        </header>
+
+        <div class="connection-status">
+            <div id="status" class="status-disconnected">Disconnected</div>
+            <button id="connectBtn" class="btn btn-primary">Connect to Binance</button>
+        </div>
+
+        <div class="trading-panel">
+            <div class="order-tabs">
+                <button class="tab-btn active" data-tab="market">Market Order</button>
+                <button class="tab-btn" data-tab="limit">Limit Order</button>
+                <button class="tab-btn" data-tab="oco">OCO Order (Bonus)</button>
+            </div>
+
+            <!-- Market Order Form -->
+            <div id="market-tab" class="tab-content active">
+                <form id="marketForm" class="order-form">
+                    <div class="form-group">
+                        <label for="marketSymbol">Symbol:</label>
+                        <input type="text" id="marketSymbol" value="BTCUSDT" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="marketSide">Side:</label>
+                        <select id="marketSide" required>
+                            <option value="BUY">BUY</option>
+                            <option value="SELL">SELL</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="marketQuantity">Quantity:</label>
+                        <input type="number" id="marketQuantity" value="0.001" step="0.001" min="0.001" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Place Market Order</button>
+                    <button type="button" id="marketTest" class="btn btn-test">Test Mode</button>
+                </form>
+            </div>
+
+            <!-- Limit Order Form -->
+            <div id="limit-tab" class="tab-content">
+                <form id="limitForm" class="order-form">
+                    <div class="form-group">
+                        <label for="limitSymbol">Symbol:</label>
+                        <input type="text" id="limitSymbol" value="BTCUSDT" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="limitSide">Side:</label>
+                        <select id="limitSide" required>
+                            <option value="BUY">BUY</option>
+                            <option value="SELL">SELL</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="limitQuantity">Quantity:</label>
+                        <input type="number" id="limitQuantity" value="0.001" step="0.001" min="0.001" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="limitPrice">Limit Price:</label>
+                        <input type="number" id="limitPrice" value="50000" step="0.01" min="0.01" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Place Limit Order</button>
+                    <button type="button" id="limitTest" class="btn btn-test">Test Mode</button>
+                </form>
+            </div>
+
+            <!-- OCO Order Form -->
+            <div id="oco-tab" class="tab-content">
+                <form id="ocoForm" class="order-form">
+                    <div class="form-group">
+                        <label for="ocoSymbol">Symbol:</label>
+                        <input type="text" id="ocoSymbol" value="BTCUSDT" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="ocoSide">Side:</label>
+                        <select id="ocoSide" required>
+                            <option value="BUY">BUY</option>
+                            <option value="SELL">SELL</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ocoQuantity">Quantity:</label>
+                        <input type="number" id="ocoQuantity" value="0.001" step="0.001" min="0.001" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ocoPrice">Take Profit Price:</label>
+                        <input type="number" id="ocoPrice" value="52000" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ocoStopPrice">Stop Price:</label>
+                        <input type="number" id="ocoStopPrice" value="48000" step="0.01" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ocoStopLimitPrice">Stop Limit Price:</label>
+                        <input type="number" id="ocoStopLimitPrice" value="47500" step="0.01" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Place OCO Order</button>
+                    <button type="button" id="ocoTest" class="btn btn-test">Test Mode</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Results Display -->
+        <div class="results-panel">
+            <h3>Order Results</h3>
+            <div id="results" class="results-container">
+                <p class="no-orders">No orders placed yet</p>
+            </div>
+        </div>
+
+        <!-- Log Display -->
+        <div class="log-panel">
+            <h3>Live Logs</h3>
+            <div id="logContainer" class="log-container">
+                <div class="log-entry">Welcome to Crypto Trading Bot UI</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

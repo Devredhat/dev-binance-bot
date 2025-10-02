@@ -1,0 +1,57 @@
+2025-10-02 05:23:39,688 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:23:40,362 - INFO - SUCCESS: futures_account -> {'feeTier': 0, 'canTrade': True, 'canDeposit': True, 'canWithdraw': True, 'feeBurn': True, 'tradeGro...
+2025-10-02 05:23:40,363 - WARNING - Low USDT balance for order
+2025-10-02 05:23:44,793 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:23:44,794 - INFO - TEST MODE: Balance bypassed
+2025-10-02 05:23:44,795 - INFO - SIMULATED Market order: {'orderId': 999999, 'status': 'FILLED', 'price': 60500.0}
+2025-10-02 05:24:01,124 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:24:01,481 - INFO - SUCCESS: futures_account -> {'feeTier': 0, 'canTrade': True, 'canDeposit': True, 'canWithdraw': True, 'feeBurn': True, 'tradeGro...
+2025-10-02 05:24:01,481 - WARNING - Low USDT balance for order
+2025-10-02 05:24:27,118 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:24:27,580 - INFO - SUCCESS: futures_account -> {'feeTier': 0, 'canTrade': True, 'canDeposit': True, 'canWithdraw': True, 'feeBurn': True, 'tradeGro...
+2025-10-02 05:24:27,581 - WARNING - Low USDT balance for order
+2025-10-02 05:24:29,903 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:24:29,905 - INFO - TEST MODE: Balance bypassed
+2025-10-02 05:24:29,906 - INFO - SIMULATED Limit order: {'orderId': 888888, 'status': 'NEW'}
+2025-10-02 05:31:32,482 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:31:32,959 - INFO - SUCCESS: futures_account -> {'feeTier': 0, 'canTrade': True, 'canDeposit': True, 'canWithdraw': True, 'feeBurn': True, 'tradeGro...
+2025-10-02 05:31:32,960 - WARNING - Low USDT balance for order
+2025-10-02 05:31:48,079 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 05:31:48,081 - INFO - TEST MODE: Balance bypassed
+2025-10-02 05:31:48,082 - INFO - SIMULATED Market order: {'orderId': 999999, 'status': 'FILLED', 'price': 60500.0}
+2025-10-02 10:15:59,544 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:15:59,552 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:15:59,554 - INFO - SIMULATED Market order: {'orderId': 999999, 'status': 'FILLED', 'price': 60500.0}
+2025-10-02 10:16:58,237 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:16:59,266 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:17:03,982 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:17:04,385 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:17:31,209 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:17:31,870 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:17:55,744 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:17:56,185 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:18:09,585 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:18:09,586 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:18:09,587 - INFO - SIMULATED Limit order: {'orderId': 888888, 'status': 'NEW'}
+2025-10-02 10:18:51,981 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:18:52,442 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:19:04,747 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:19:05,110 - ERROR - API ERROR in futures_account: Signature for this request is not valid.
+2025-10-02 10:21:20,076 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:21:20,077 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:21:20,078 - INFO - SIMULATED Market order: {'orderId': 999999, 'status': 'FILLED', 'price': 60500.0}
+2025-10-02 10:21:21,498 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:21:21,498 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:21:21,499 - INFO - SIMULATED Limit order: {'orderId': 888888, 'status': 'NEW'}
+2025-10-02 10:27:16,430 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:27:16,431 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:27:16,432 - INFO - SIMULATED OCO order: {'orderListId': 777777}
+2025-10-02 10:27:57,344 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:27:57,345 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:27:57,346 - INFO - SIMULATED Market order: {'orderId': 999999, 'status': 'FILLED', 'price': 60500.0}
+2025-10-02 10:27:58,880 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:27:58,882 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:27:58,883 - INFO - SIMULATED Limit order: {'orderId': 888888, 'status': 'NEW'}
+2025-10-02 10:28:00,486 - INFO - === Bot Initialized on Testnet ===
+2025-10-02 10:28:00,487 - INFO - TEST MODE: Balance bypassed
+2025-10-02 10:28:00,487 - INFO - SIMULATED OCO order: {'orderListId': 777777}
